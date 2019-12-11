@@ -30,35 +30,14 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
-"Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 map <Leader>h :InsertFunctionHeader<CR>
 map <Leader>f :InsertFileHeader<CR>
 
-" for lightline display
-set laststatus=2
-set noshowmode
-if !has('gui_running')
-	set t_Co=256
-endif
-let g:lightline = {
-	\ 'colorscheme': 'gruvbox',
-	\ 'active': {
-	\	'left': [ [ 'mode', 'paste' ],
-	\		  [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-	\ },
-	\ 'component_function': {
-	\ 	'gitbranch': 'fugitive#head'
-	\ },
-	\ }
-
 " get gruvbox colorscheme
 silent! colorscheme gruvbox
 set background=dark
-
-let g:VimHeaderEmails = 'blyons1@nd.edu, mmaldona@nd.edu, sbattali@nd.edu, mkocher2@nd.edu'
-let g:VimHeaderNames = 'Ben Lyons, Marina Maldonado, Sam Battalio, Michaela Kocher'
 
 " for solarized
 " syntax enable
