@@ -54,7 +54,7 @@ let g:lightline = {
 	\ }
 
 " get gruvbox colorscheme
-colorscheme gruvbox
+silent! colorscheme gruvbox
 set background=dark
 
 let g:VimHeaderEmails = 'blyons1@nd.edu, mmaldona@nd.edu, sbattali@nd.edu, mkocher2@nd.edu'
