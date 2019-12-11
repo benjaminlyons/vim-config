@@ -37,6 +37,7 @@ map <Leader>f :InsertFileHeader<CR>
 
 " get gruvbox colorscheme
 silent! colorscheme gruvbox
+set t_Co=256
 set background=dark
 
 " for solarized
