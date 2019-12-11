@@ -23,14 +23,6 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'https://gitlab.com/blyons1/vim-header.git'
-Plugin 'morhetz/gruvbox'
-Plugin 'altercation/solarized'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tomtom/tcomment_vim'
-Plugin 'tpope/vim-surround'
-Plugin 'scrooloose/nerdtree'
-Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 map <Leader>h :InsertFunctionHeader<CR>
