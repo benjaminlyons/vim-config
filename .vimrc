@@ -30,7 +30,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
-Plugin 'itchyny/lightline.vim'
+"Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 map <Leader>h :InsertFunctionHeader<CR>
