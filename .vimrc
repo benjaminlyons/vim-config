@@ -26,22 +26,14 @@ Plugin 'https://gitlab.com/blyons1/vim-header.git'
 Plugin 'morhetz/gruvbox'
 Plugin 'altercation/solarized'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tomtom/tcomment_vim'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/nerdtree'
+Plugin 'itchyny/lightline.vim'
 call vundle#end()
 filetype plugin indent on
 map <Leader>h :InsertFunctionHeader<CR>
 map <Leader>f :InsertFileHeader<CR>
-
-"This is the vim plugin section
-call plug#begin('~/.vim/plugged')
-Plug 'junegunn/fzf', {'dir': '~/.fzf', 'do': './install --bin' }
-Plug 'junegunn/fzf.vim'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'tomtom/tcomment_vim'
-Plug 'tpope/vim-surround'
-Plug 'scrooloose/nerdtree'
-Plug 'itchyny/lightline.vim'
-" Plug 'morhetz/gruvbox'
-call plug#end()
 
 " for lightline display
 set laststatus=2
