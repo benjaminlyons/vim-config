@@ -13,8 +13,6 @@ nnoremap * *zz
 nnoremap # #zz
 noremap <silent> <leader><cr> :noh<cr>
 
-" nnoremap B ^
-" nnoremap E $
 set tabstop=8
 set shiftwidth=8
 set nocompatible
@@ -39,11 +37,6 @@ map <Leader>f :InsertFileHeader<CR>
 silent! colorscheme gruvbox
 set t_Co=256
 set background=dark
-
-" for solarized
-" syntax enable
-" set background=dark
-" colorscheme solarized
 
 
 augroup Python
