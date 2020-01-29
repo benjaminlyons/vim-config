@@ -38,6 +38,8 @@ silent! colorscheme gruvbox
 set t_Co=256
 set background=dark
 
+let g:VimHeaderEmails = 'blyons1@nd.edu'
+let g:VimHeaderNames = 'Ben Lyons'
 
 augroup Python
     autocmd!
