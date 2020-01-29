@@ -1,5 +1,5 @@
 # vim-config
-You can either download the .vimrc and install the plugins manually. Or you can use the installation
+You can either download the .vimrc and install the plugins manually, or you can use the installation
 script which can be obtained via 
 	'wget https://raw.githubusercontent.com/benjaminlyons/vim-config/master/vim_config_install.sh'
 Then you can run the script with ./vim_config_install.sh. It will probably work.
